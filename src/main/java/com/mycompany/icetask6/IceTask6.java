@@ -11,8 +11,26 @@ import java.util.Scanner;
 public class IceTask6 {
 
     public static void main(String[] args) {
+        //Declare
         Scanner sc = new Scanner(System.in);
         String sentence;
+        //Prompt
+        System.out.print("Please enter any sentence");
+        sentence=sc.next();
        
     }
+    public static int Vowels(String sen){
+       String vowels="aeiou" ;
+       
+        
+        
+        
+        
+        
+        
+    }
+
+    
+    
 }
+  
