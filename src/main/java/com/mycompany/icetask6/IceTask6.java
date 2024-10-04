@@ -19,8 +19,16 @@ public class IceTask6 {
         sentence=sc.next();
        
     }
-    public static int Vowels(String sen){
+    public static int countVowels(String sen){
        String vowels="aeiou" ;
+       int count=0;
+       
+       //requirement
+       String lowerCase=sen.toLowerCase();
+       for (int i = 0; i < lowerCase.length(); i++) {
+            char ch = lowerCase.charAt(i);
+            if (vowels.indexOf(ch) != -1) {
+                count++;
        
         
         
